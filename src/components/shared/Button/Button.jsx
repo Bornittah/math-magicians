@@ -1,13 +1,21 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 
-const Button = (props) => {
-  const { className, text } = props;
-  return (
-    <button type="submit" className={className}>
-      {text}
-    </button>
-  );
-};
+class Button extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  render() {
+    const { className, text } = this.props;
+    return (
+      <button type="submit" className={className}>
+        {text}
+      </button>
+    );
+  }
+}
 
 Button.defaultProps = {
   className: '',
