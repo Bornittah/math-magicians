@@ -14,7 +14,7 @@
 
 ## Live Demo (if available)
 
-No live demo
+Click [here](https://math-magician1.netlify.app/) to check out the live demo
 
 
 ## Getting Started

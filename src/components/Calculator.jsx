@@ -1,53 +1,128 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Button from './shared/Button/Button';
+import calculate from './logic/calculate';
 import './style.css';
 
-class Calculator extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
+const Calculator = () => {
+  const [data, setData] = useState(0);
+  const onClick = (e) => {
+    setData((data) => calculate(data, e.target.value));
+  };
 
-  render() {
-    return (
-      <div className="wrapper flex align-center justify-center">
-        <div className="calculator">
-          <div className="answer-display">
-            <p>0</p>
-          </div>
-          <div className="row flex space-btn">
-            <Button className="button gray-bg flex-1" text="AC" />
-            <Button className="button gray-bg flex-1" text="+/-" />
-            <Button className="button gray-bg flex-1" text="%" />
-            <Button className="button orange-bg flex-1" text="/" />
-          </div>
-          <div className="row flex space-btn">
-            <Button className="button gray-bg flex-1" text="7" />
-            <Button className="button gray-bg flex-1" text="8" />
-            <Button className="button gray-bg flex-1" text="9" />
-            <Button className="button orange-bg flex-1" text="x" />
-          </div>
-          <div className="row flex space-btn">
-            <Button className="button gray-bg flex-1" text="4" />
-            <Button className="button gray-bg flex-1" text="5" />
-            <Button className="button gray-bg flex-1" text="6" />
-            <Button className="button orange-bg flex-1" text="-" />
-          </div>
-          <div className="row flex space-btn">
-            <Button className="button gray-bg flex-1" text="1" />
-            <Button className="button gray-bg flex-1" text="2" />
-            <Button className="button gray-bg flex-1" text="3" />
-            <Button className="button orange-bg flex-1" text="+" />
-          </div>
-          <div className="row flex space-btn">
-            <Button className="button gray-bg flex-2" text="0" />
-            <Button className="button gray-bg flex-1 " text="." />
-            <Button className="button orange-bg flex-1 " text="=" />
-          </div>
+  return (
+    <div className="wrapper flex align-center justify-center">
+      <div className="calculator">
+        <div className="answer-display">
+          <p>{data.next || data.total || 0}</p>
+        </div>
+        <div className="row flex space-btn">
+          <Button
+            className="button gray-bg flex-1"
+            value="AC"
+            onClick={onClick}
+          />
+          <Button
+            className="button gray-bg flex-1"
+            value="+/-"
+            onClick={onClick}
+          />
+          <Button
+            className="button gray-bg flex-1"
+            value="%"
+            onClick={onClick}
+          />
+          <Button
+            className="button orange-bg flex-1"
+            value="/"
+            onClick={onClick}
+          />
+        </div>
+        <div className="row flex space-btn">
+          <Button
+            className="button gray-bg flex-1"
+            value="7"
+            onClick={onClick}
+          />
+          <Button
+            className="button gray-bg flex-1"
+            value="8"
+            onClick={onClick}
+          />
+          <Button
+            className="button gray-bg flex-1"
+            value="9"
+            onClick={onClick}
+          />
+          <Button
+            className="button orange-bg flex-1"
+            value="x"
+            onClick={onClick}
+          />
+        </div>
+        <div className="row flex space-btn">
+          <Button
+            className="button gray-bg flex-1"
+            value="4"
+            onClick={onClick}
+          />
+          <Button
+            className="button gray-bg flex-1"
+            value="5"
+            onClick={onClick}
+          />
+          <Button
+            className="button gray-bg flex-1"
+            value="6"
+            onClick={onClick}
+          />
+          <Button
+            className="button orange-bg flex-1"
+            value="-"
+            onClick={onClick}
+          />
+        </div>
+        <div className="row flex space-btn">
+          <Button
+            className="button gray-bg flex-1"
+            value="1"
+            onClick={onClick}
+          />
+          <Button
+            className="button gray-bg flex-1"
+            value="2"
+            onClick={onClick}
+          />
+          <Button
+            className="button gray-bg flex-1"
+            value="3"
+            onClick={onClick}
+          />
+          <Button
+            className="button orange-bg flex-1"
+            value="+"
+            onClick={onClick}
+          />
+        </div>
+        <div className="row flex space-btn">
+          <Button
+            className="button gray-bg flex-2"
+            value="0"
+            onClick={onClick}
+          />
+          <Button
+            className="button gray-bg flex-1 "
+            value="."
+            onClick={onClick}
+          />
+          <Button
+            className="button orange-bg flex-1 "
+            value="="
+            onClick={onClick}
+          />
         </div>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 export default Calculator;
