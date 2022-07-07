@@ -40,7 +40,7 @@ class Calculator extends React.Component {
             />
             <Button
               className="button orange-bg flex-1"
-              value="/"
+              value="&#247;"
               onClick={this.onClick}
             />
           </div>
