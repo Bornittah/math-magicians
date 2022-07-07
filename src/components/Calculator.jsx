@@ -8,7 +8,6 @@ const Calculator = () => {
   const onClick = (e) => {
     setData((data) => calculate(data, e.target.value));
   };
-
   return (
     <div className="wrapper flex align-center justify-center">
       <div className="calculator">
