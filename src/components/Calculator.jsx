@@ -33,7 +33,7 @@ const Calculator = () => {
           />
           <Button
             className="button orange-bg flex-1"
-            value="/"
+            value="&#247;"
             onClick={onClick}
           />
         </div>
