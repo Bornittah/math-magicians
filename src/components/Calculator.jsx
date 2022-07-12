@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import Button from './shared/Button/Button';
+import Button from './shared/Button';
 import calculate from './logic/calculate';
-import './style.css';
 
 const Calculator = () => {
   const [data, setData] = useState(0);
