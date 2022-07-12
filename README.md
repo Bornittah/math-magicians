@@ -34,15 +34,15 @@ Run "git clone [url](https://github.com/Bornittah/math-magicians.git)"
 Navigate to the cloned project
 ### Install
 Navigate to the project
-Run "npm install" to install all the required dependences
+Run `npm install` to install all the required dependences
 ### Usage
 Navigate to the project
-Run "npm start" to serve the project
+Run `npm start` to serve the project
 ### Run tests
-Run "npm test"
+Run `npm test`
 ### Deployment
 The app is deployed on the github pages
-Run "npm run deploy" on your terminal
+Run `npm run deploy` on your terminal
 
 ## Authors
 
