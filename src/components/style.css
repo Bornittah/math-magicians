@@ -3,6 +3,14 @@
   padding: 0;
 }
 
+body {
+  padding: 24px;
+}
+
+main {
+  margin: 12px 0;
+}
+
 .flex {
   display: flex;
 }
@@ -25,7 +33,7 @@
 
 .calculator {
   position: absolute;
-  top: 10%;
+  top: 20%;
   width: 50%;
   bottom: 10%;
 }
@@ -63,6 +71,61 @@
 
 .orange-bg {
   background-color: #e9630a;
+}
+
+header {
+  width: 100%;
+}
+
+.border-right {
+  border-right: 1px solid #9b9e9d;
+}
+
+nav {
+  padding: 12px 0;
+}
+
+.logo a {
+  text-decoration: none;
+  padding: 0 8px;
+  color: inherit;
+  font-size: 2rem;
+}
+
+.navbar {
+  list-style-type: none;
+}
+
+.nav-link {
+  margin: 0 4px;
+  padding: 0 12px;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.2rem;
+}
+
+.title{
+  margin: 12px 0;
+}
+
+.title h2{
+  font-size: 1.5rem;
+}
+
+.description {
+  line-height: 1.5;
+}
+
+.description .text {
+  margin: 24px 0;
+  text-align: justify;
+}
+
+.quote {
+  font-weight: 700;
 }
 
 @media screen and (max-width: 768px) {
