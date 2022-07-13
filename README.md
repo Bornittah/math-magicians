@@ -16,6 +16,8 @@
 
 Click [here](https://math-magician1.netlify.app/) to check out the live demo
 
+See the deployment on heroku [here](https://math-magicians-application.herokuapp.com/)
+
 
 ## Getting Started
 
