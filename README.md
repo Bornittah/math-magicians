@@ -16,6 +16,8 @@
 
 Click [here](https://math-magician1.netlify.app/) to check out the live demo
 
+See the deployment on heroku [here](https://math-magicians-application.herokuapp.com/)
+
 
 ## Getting Started
 
@@ -41,7 +43,6 @@ Run "npm start" to serve the project
 ### Run tests
 Run "npm test"
 ### Deployment
-The app is deployed on the github pages
 Run "npm run deploy" on your terminal
 
 ## Authors
@@ -51,6 +52,16 @@ Run "npm run deploy" on your terminal
 - GitHub: [@Bornittah](https://github.com/Bornittah)
 - Twitter: [@AgashaBornittah](https://twitter.com/AgashaBornittah)
 - LinkedIn: [Bornittah](www.linkedin.com/in/agasha-bornittah)
+
+👤 **Author2**
+
+- GitHub: [@tingamapuro](https://github.com/tingamapuro04)
+- LinkedIn: [Adoyo](https://www.linkedin.com/in/adoyo-alphonce-3362a4173/)
+
+👤 **Author3**
+
+- LinkedIn: [LinkedIn](https://linkedin.com/in/farida-hamid)
+- GitHub: [@Farida-Hamid](https://github.com/Farida-Hamid)
 
 
 ## 🤝 Contributing

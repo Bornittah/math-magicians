@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing CalculatorPage component Testing with snapshot 1`] = `
+<main
+  className="flex space-btn"
+>
+  <div
+    className="flex-1"
+  >
+    <div
+      className="title"
+    >
+      <h2>
+        Lets do some math!
+      </h2>
+    </div>
+  </div>
+  <div
+    className="flex-1"
+  >
+    <div
+      className="wrapper flex align-center justify-center"
+    >
+      <div
+        className="calculator"
+      >
+        <div
+          className="answer-display"
+        >
+          <p>
+            0
+          </p>
+        </div>
+        <div
+          className="row flex space-btn"
+        >
+          <button
+            className="button gray-bg flex-1"
+            onClick={[Function]}
+            type="button"
+            value="AC"
+          >
+            AC
+          </button>
+          <button
+            className="button gray-bg flex-1"
+            onClick={[Function]}
+            type="button"
+            value="+/-"
+          >
+            +/-
+          </button>
+          <button
+            className="button gray-bg flex-1"
+            onClick={[Function]}
+            type="button"
+            value="%"
+          >
+            %
+          </button>
+          <button
+            className="button orange-bg flex-1"
+            onClick={[Function]}
+            type="button"
+            value="÷"
+          >
+            ÷
+          </button>
+        </div>
+        <div
+          className="row flex space-btn"
+        >
+          <button
+            className="button gray-bg flex-1"
+            onClick={[Function]}
+            type="button"
+            value="7"
+          >
+            7
+          </button>
+          <button
+            className="button gray-bg flex-1"
+            onClick={[Function]}
+            type="button"
+            value="8"
+          >
+            8
+          </button>
+          <button
+            className="button gray-bg flex-1"
+            onClick={[Function]}
+            type="button"
+            value="9"
+          >
+            9
+          </button>
+          <button
+            className="button orange-bg flex-1"
+            onClick={[Function]}
+            type="button"
+            value="x"
+          >
+            x
+          </button>
+        </div>
+        <div
+          className="row flex space-btn"
+        >
+          <button
+            className="button gray-bg flex-1"
+            onClick={[Function]}
+            type="button"
+            value="4"
+          >
+            4
+          </button>
+          <button
+            className="button gray-bg flex-1"
+            onClick={[Function]}
+            type="button"
+            value="5"
+          >
+            5
+          </button>
+          <button
+            className="button gray-bg flex-1"
+            onClick={[Function]}
+            type="button"
+            value="6"
+          >
+            6
+          </button>
+          <button
+            className="button orange-bg flex-1"
+            onClick={[Function]}
+            type="button"
+            value="-"
+          >
+            -
+          </button>
+        </div>
+        <div
+          className="row flex space-btn"
+        >
+          <button
+            className="button gray-bg flex-1"
+            onClick={[Function]}
+            type="button"
+            value="1"
+          >
+            1
+          </button>
+          <button
+            className="button gray-bg flex-1"
+            onClick={[Function]}
+            type="button"
+            value="2"
+          >
+            2
+          </button>
+          <button
+            className="button gray-bg flex-1"
+            onClick={[Function]}
+            type="button"
+            value="3"
+          >
+            3
+          </button>
+          <button
+            className="button orange-bg flex-1"
+            onClick={[Function]}
+            type="button"
+            value="+"
+          >
+            +
+          </button>
+        </div>
+        <div
+          className="row flex space-btn"
+        >
+          <button
+            className="button gray-bg flex-2"
+            onClick={[Function]}
+            type="button"
+            value="0"
+          >
+            0
+          </button>
+          <button
+            className="button gray-bg flex-1 "
+            onClick={[Function]}
+            type="button"
+            value="."
+          >
+            .
+          </button>
+          <button
+            className="button orange-bg flex-1 "
+            onClick={[Function]}
+            type="button"
+            value="="
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+`;
