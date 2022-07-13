@@ -54,8 +54,14 @@ Run "npm run deploy" on your terminal
 - LinkedIn: [Bornittah](www.linkedin.com/in/agasha-bornittah)
 
 👤 **Author2**
+
 - GitHub: [@tingamapuro](https://github.com/tingamapuro04)
 - LinkedIn: [Adoyo](https://www.linkedin.com/in/adoyo-alphonce-3362a4173/)
+
+👤 **Author3**
+
+- LinkedIn: [LinkedIn](https://linkedin.com/in/farida-hamid)
+- GitHub: [@Farida-Hamid](https://github.com/Farida-Hamid)
 
 
 ## 🤝 Contributing
